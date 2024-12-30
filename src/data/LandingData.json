@@ -1,0 +1,143 @@
+[
+  {
+    "id": "landing",
+    "title": "Now you can feel the Energy",
+    "description": "Start your day with a black Coffee"
+  },
+  {
+    "id": "icons",
+    "title": "Icons Section",
+    "icons": [
+      {
+        "name": "hot",
+        "image": "./src/img/hot-coffee-cup-svgrepo-com.svg"
+      },
+      {
+        "name": "cold",
+        "image": "./src/img/coffe-to-go-svgrepo-com.svg"
+      },
+      {
+        "name": "drip",
+        "image": "./src/img/coffee-pot-svgrepo-com.svg"
+      },
+      {
+        "name": "dessert",
+        "image": "./src/img/dessert-svgrepo-com.svg"
+      }
+    ]
+  },
+  {
+    "id": "story",
+    "title": "Our Story",
+    "description": "Nestled in the heart of the city, our café is a sanctuary where community and flavor come together. We pride ourselves on serving expertly brewed coffee, artisanal pastries, and a warm, inviting atmosphere. It's a place where conversations flow as freely as the coffee, and every visit feels like a comforting escape."
+  },
+  {
+    "id": "fav_items",
+    "title": "Special Items",
+    "description": "Nestled in the heart of the city, our café is a sanctuary where community and flavor come together. We pride ourselves on serving expertly brewed coffee, artisanal pastries, and a warm, inviting atmosphere. It's a place where conversations flow as freely as the coffee, and every visit feels like a comforting escape.",
+    "items": [
+      {
+        "title": "Flat White",
+        "description": "A coffee drink consisting of espresso and steamed milk.",
+        "image": "./src/img/hot-1.jpeg"
+      },
+      {
+        "title": "Cortado",
+        "description": "A Spanish beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity.",
+        "image": "./src/img/hot-3.jpg"
+      },
+      {
+        "title": "Turkish Coffee",
+        "description": "A style of coffee prepared in a cezve using very finely ground coffee beans without filtering.",
+        "image": "./src/img/hot-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "menu_category",
+    "title": "What kind of Coffee we serve for you",
+    "description": "Who are in extremely love with eco friendly system.",
+    "categories": [
+      {
+        "name": "Espresso",
+        "price": "14 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Hot Coffee",
+        "price": "08 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Cold Coffee",
+        "price": "22 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Hot Drinks",
+        "price": "07 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Cold Drinks",
+        "price": "14 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Traditional Tea & Coffee",
+        "price": "05 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Desserts",
+        "price": "11 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Bakery",
+        "price": "09 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      },
+      {
+        "name": "Breakfast",
+        "price": "24 SR",
+        "description": "Usage of the Internet is becoming more common due to rapid advance."
+      }
+    ]
+  },
+  {
+    "id": "gallery",
+    "title": "Gallery",
+    "description": "What kind of Coffee we serve for you",
+    "images": [
+      "./src/img/gallery-2.jpg",
+      "./src/img/gallery-5.jpg",
+      "./src/img/header-2.jpg",
+      "./src/img/gallery-3.png",
+      "./src/img/gallery-4.png"
+    ]
+  },
+  {
+    "id": "footer",
+    "contact_info": {
+      "location": "Jeddah - Alsafa",
+      "hours": "From: 10:00 am - 3:00 am",
+      "phone": "050 218 9035",
+      "email": "h.ibraheem14@outlook.com"
+    },
+    "social_links": [
+      {
+        "platform": "Instagram",
+        "link": "#"
+      },
+      {
+        "platform": "Snapchat",
+        "link": "#"
+      },
+      {
+        "platform": "TikTok",
+        "link": "#"
+      }
+    ]
+  }
+]
