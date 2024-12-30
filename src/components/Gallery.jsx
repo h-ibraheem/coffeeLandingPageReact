@@ -1,3 +1,4 @@
+import Img_1 from "/src/assets/img/gallery-2.jpg";
 function Gallery() {
   return (
     <div className="gallery py-24 bg-brownLight/20 relative" id="gallery">
@@ -14,13 +15,9 @@ function Gallery() {
         <div className="imgs pt-20">
           <div className="img-box grid grid-cols-1 md:grid md:grid-cols-3  ">
             <div className="box  grid-cols-1 p-2 relative">
+              <img src={Img_1} className="p-2 transform rotate-4" alt="img" />
               <img
-                src="../src/assets/img/gallery-2.jpg"
-                className="p-2 transform rotate-4"
-                alt="img"
-              />
-              <img
-                src="../src/assets/img/gallery-5.jpg"
+                src="/src/assets/img/gallery-5.jpg"
                 className="p-2"
                 alt="img"
               />
@@ -28,17 +25,17 @@ function Gallery() {
 
             <div className="upper-img grid md:grid p-2 md:col-span-2 md:gap-4">
               <img
-                src="../src/assets/img/header-2.jpg"
+                src="/src/assets/img/header-2.jpg"
                 className="md:col-span-2 p-2 flex mx-auto"
                 alt="img"
               />
               <img
-                src="../src/assets/img/gallery-3.png"
+                src="/src/assets/img/gallery-3.png"
                 className="p-2"
                 alt="img"
               />
               <img
-                src="../src/assets/img/gallery-4.png"
+                src="/src/assets/img/gallery-4.png"
                 className="p-2"
                 alt="img"
               />
