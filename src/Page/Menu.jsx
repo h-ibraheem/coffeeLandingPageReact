@@ -1,7 +1,7 @@
 import { data } from "../data/data";
 import Header from "../components/HeroSection/Header";
-import Category from "../components/menuList/Category";
-import ItemList from "../components/menuList/ItemList";
+import Category from "../components/MenuList/Category";
+import ItemList from "../components/MenuList/ItemList";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
 function Menu() {
