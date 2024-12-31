@@ -2,7 +2,16 @@ import Img_1 from "/src/assets/img/gallery-2.jpg";
 import img_2 from "/src/assets/img/header-2.jpg";
 import img_3 from "/src/assets/img/gallery-3.png";
 import img_4 from "/src/assets/img/gallery-4.png";
+import img_5 from "/src/assets/img/gallery-5.jpg";
+import cookiesImg from "/src/assets/img/cookie-svgrepo-com.svg";
+
 function Gallery() {
+  const images = [];
+  for (let i = 0; i < 5; i++) {
+    images.push(
+      <img key={i} src={cookiesImg} alt="cookies" className="w-12 md:w-24" />
+    );
+  }
   return (
     <div className="gallery py-24 bg-brownLight/20 relative" id="gallery">
       <div className="container mx-auto">
@@ -19,11 +28,7 @@ function Gallery() {
           <div className="img-box grid grid-cols-1 md:grid md:grid-cols-3  ">
             <div className="box  grid-cols-1 p-2 relative">
               <img src={Img_1} className="p-2 transform rotate-4" alt="img" />
-              <img
-                src="/src/assets/img/gallery-5.jpg"
-                className="p-2"
-                alt="img"
-              />
+              <img src={img_5} className="p-2" alt="img" />
             </div>
 
             <div className="upper-img grid md:grid p-2 md:col-span-2 md:gap-4">
@@ -49,31 +54,7 @@ function Gallery() {
       </div>
 
       <div className="cookie absolute bottom-0 flex justify-between w-full opacity-80 px-5 pb-5">
-        <img
-          src="../src/assets/img/cookie-svgrepo-com.svg"
-          alt="cookies"
-          className="w-12 md:w-24"
-        />
-        <img
-          src="../src/assets/img/cookie-svgrepo-com.svg"
-          alt="cookies"
-          className="w-12 md:w-24"
-        />
-        <img
-          src="../src/assets/img/cookie-svgrepo-com.svg"
-          alt="cookies"
-          className="w-12 md:w-24"
-        />
-        <img
-          src="../src/assets/img/cookie-svgrepo-com.svg"
-          alt="cookies"
-          className="w-12 md:w-24"
-        />
-        <img
-          src="../src/assets/img/cookie-svgrepo-com.svg"
-          alt="cookies"
-          className="w-12 md:w-24"
-        />
+        {images}
       </div>
     </div>
   );

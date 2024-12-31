@@ -1,3 +1,6 @@
+import item_1 from "/src/assets/img/hot-1.jpeg";
+import item_2 from "/src/assets/img/hot-2.jpg";
+import item_3 from "/src/assets/img/hot-3.jpg";
 function SpecialItems() {
   return (
     <div className="fav pt-24 ">
@@ -16,7 +19,7 @@ function SpecialItems() {
       <div className="container mx-auto grid md:grid-cols-3 pt-16 gap-6 px-5">
         <div className="box bg-brownLight rounded-2xl">
           <img
-            src="../src/assets/img/hot-1.jpeg"
+            src={item_1}
             alt="imge"
             className="rounded-2xl flex items-center w-full mx-auto md:max-w-max p-2"
           />
@@ -30,7 +33,7 @@ function SpecialItems() {
 
         <div className="box bg-brownLight rounded-2xl">
           <img
-            src="../src/assets/img/hot-3.jpg"
+            src={item_3}
             alt="imge"
             className="rounded-2xl flex items-center w-full mx-auto md:max-w-max p-2"
           />
@@ -42,9 +45,10 @@ function SpecialItems() {
             amount of warm milk to reduce the acidity,
           </p>
         </div>
+
         <div className="box bg-brownLight rounded-2xl">
           <img
-            src="../src/assets/img/hot-2.jpg"
+            src={item_2}
             alt="imge"
             className="rounded-2xl flex items-center w-full mx-auto md:max-w-max p-2"
           />
