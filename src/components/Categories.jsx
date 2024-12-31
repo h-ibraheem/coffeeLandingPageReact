@@ -1,16 +1,14 @@
+import img from "/src/assets/img/bg-coffee beans.png";
+import img_1 from "/src/assets/img/bg-coffee beans.png";
 import Buttons from "./Buttons";
 
 function Categories() {
   return (
     <section className="category  relative" id="menu">
       <div className="image absolute opacity-70 w-full h-full">
+        <img src={img} className="absolute left-0 bottom-0" alt="" />
         <img
-          src="../src/assets/img/bg-coffee beans.png"
-          className="absolute left-0 bottom-0"
-          alt=""
-        />
-        <img
-          src="../src/assets/img/bg-coffee beans.png"
+          src={img_1}
           className="absolute right-0 bottom-0 transform scale-x-[-1]"
           alt=""
         />
