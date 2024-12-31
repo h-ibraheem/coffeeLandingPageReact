@@ -1,4 +1,4 @@
-// import Logo from "../src/assets/img/kims-logo-dark.svg";
+import logo from "/src/assets/img/logoWight.svg";
 function Item({ items }) {
   return (
     <>
@@ -16,11 +16,7 @@ function Item({ items }) {
           </div>
 
           <div className="bg-mainBrown/80 rounded-xl">
-            <img
-              src="../src/assets/img/logoWight.svg"
-              alt="Item Image"
-              className="w-32 mx-auto my-4"
-            />
+            <img src={logo} alt="Item Image" className="w-32 mx-auto my-4" />
           </div>
         </div>
       ))}
@@ -29,10 +25,3 @@ function Item({ items }) {
 }
 
 export default Item;
-{
-  /* 
-          <h2 className="relative font-bold text-brownLight text-xl">
-            14
-            <span className="absolute -top-3 uppercase text-sm">sr</span>
-          </h2> */
-}

@@ -1,3 +1,4 @@
+import logo from "/src/assets/img/logoWight.svg";
 import SocialMediaIcons from "./SocialMediaIcons";
 import { FaAt } from "react-icons/fa";
 import { FaLocationDot, FaClock, FaPhone } from "react-icons/fa6";
@@ -6,11 +7,7 @@ function Footer() {
     <footer className="bg-yellow-950 pt-12 px-5">
       <div className="container mx-auto grid md:grid-cols-3">
         <div className="logo">
-          <img
-            src="../src/assets/img/logoWight.svg"
-            className="flex mx-auto w-32 py-14"
-            alt="logo"
-          />
+          <img src={logo} className="flex mx-auto w-32 py-14" alt="logo" />
           <SocialMediaIcons />
         </div>
 
